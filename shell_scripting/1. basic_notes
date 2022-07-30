@@ -77,13 +77,47 @@ echo 3 for ip address
 
 read choice
 case $choice in
-      1)date;;
-      2)ls -ltr;;
-      3)pwd;;
-      4)ifconfig;;
+      1)date;;                    --< Default Linux Command >--
+      2)ls -ltr;;                 --< Default Linux Command >--
+      3)pwd;;                     --< Default Linux Command >--
+      4)ifconfig;;                --< Default Linux Command >--
       *) echo invalid Input       --< Print default values if no one match >--
  esac
- ----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------
+FOR LOOP
+
+for num in 1 2 3
+do 
+   echo number is $num
+done
+
+for num in {1..100}           --< define range from 1 to 100 >--    
+do 
+   echo number is $num
+done
+
+for task in read write blog         --< define range from 1 to 100 >--    
+do 
+   echo my task is $task
+done
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+WHILE LOOP
+
+num=10
+count=0
+
+while [ $count -le $num ]
+do 
+   echo $count
+   let  count++         --<  When doing arithemtic operation with var then dont use $,To do arithmetic expression we use let >--
+done
+----------------------------------------------------------------------------------------
+
 
 
 
