@@ -27,3 +27,4 @@ STRUCTURE OF FILE PERMISSION
  ps -a --- (to see all process)
  top --- see most use resource
  kil <process id> --- to kill the process
+ ls -ltr ===== To sort the file names in the last modification time in reverse order
