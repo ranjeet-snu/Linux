@@ -30,3 +30,4 @@ STRUCTURE OF FILE PERMISSION
  top --- see most use resource
  kil <process id> --- to kill the process
  ls -ltr ===== To sort the file names in the last modification time in reverse order
+ rm * --- to remove all files
