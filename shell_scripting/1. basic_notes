@@ -1,0 +1,47 @@
+=============
+
+WHY USE SHELL SCRIPTING >
+we use it for automation like if we have to do same command again and again then we automate it accordingly.
+We can automate according to time, when to start , when to stop any processes.
+
+=============
+TYPE OF SHELL
+
+1.Bourne Shell ( sh)
+2.Bourne again shell (Bash)
+3. Korn shell
+4. C shell 
+5. TCsh Shell
+=============
+USEFUL COMMANDS BEFORE SCRIPTING
+
+echo $0     - for which shell you are using
+chsh -s /bin/bash    --- to switch to bash
+chsh -s /bin/zsh     ---- to switch to zsh
+=============================
+
+SCRIPTTIG
+< we need to save extension with .sh but if not still work but itproves readibility abd we can identify it is not normal file >
+DANGER ☠️ -- do not leave spaces , its not HTML its Shell script 
+
+-----------------------------------------------------------------------------
+#!/bin/bash     --< to say kernel which shell you willl use>--
+echo print      --< for normal string print use echo the string>--
+name=Ranjeet    --< there is no need to define variable>--
+age=22          --< int type automatically>--
+echo My name is $name and age is $age     --< to print variable use $ doller signn with it >--
+------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+host=&(hostname)     --< To store linux command in variable use $(command) >--
+echo my host name is $host
+---------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+read name   --< To take INPUT from user>--
+echo Your name is $name
+
+
+
+
+
