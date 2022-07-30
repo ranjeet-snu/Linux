@@ -1,0 +1,29 @@
+rwe --- read write execute
+
+d - for directory
+
+(-) -- dash for file
+
+=====================================
+WORKING OF rwe
+
+e --- 1
+w --- 2
+r --- 4
+
+So, if rwe permission -- then value is 4+2+1=7
+    if rw   --- 4+2 =6 
+    remember this one 
+    rwe --- 421 and replace the sum according to permission
+=======================================
+STRUCTURE OF FILE PERMISSION
+=======================================
+-/d    OWNER    GROUP     PUBLIC 
+ -     rwe      -we       ---
+ 
+ 
+ 
+ ps --  (to se  process )
+ ps -a --- (to see all process)
+ top --- see most use resource
+ kil <process id> --- to kill the process
