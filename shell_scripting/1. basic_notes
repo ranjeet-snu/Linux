@@ -40,6 +40,50 @@ echo my host name is $host
 --------------------------------------------------------------------------------------
 read name   --< To take INPUT from user>--
 echo Your name is $name
+---------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+IF ELSE 
+DANGER ☠️: Always use one space after [ in if space and before ]
+echo Enter your age
+read age
+if [ $age -eq 18 ]                           --< use space after [ and befor ] >--
+then
+        echo you are eligible for vote
+else
+        echo you are not eligible
+fi                                          --< opposite of if is fi , indicates if ended here >--
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+TYPES OF OPERATERS
+
+Equal                     -eq/==
+GreaterThanOrEqualTo      -ge
+LessThanOrEqualTo         -le
+Not Equal                 -ne/!=
+greater than              -gt
+less than                 -lt
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+SWITCH CASE
+
+echo Choose the options
+echo 1 for show date
+echo 2 for list files
+echo 3 for current path
+echo 3 for ip address
+
+read choice
+case $choice in
+      1)date;;
+      2)ls -ltr;;
+      3)pwd;;
+      4)ifconfig;;
+      *) echo invalid Input       --< Print default values if no one match >--
+ esac
+ ----------------------------------------------------------------------------------------
 
 
 
