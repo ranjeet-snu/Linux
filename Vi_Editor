@@ -1,0 +1,25 @@
+>>vi <filename>      --- to ope
+  >> insert mode -- to make  changes , press a, i ,or INSERT key
+     press ESC key to exist from insert to command mode
+  >> command mode -- to save the file ,close the file , show line numbers etc
+     :w   --- to save
+     :q   --- to quit   or :q!   --! say do forcefully
+     
+     :wq  -- to save and quit   or shift+zz
+     
+     
+    press u  for -- undo last changes
+    press dd for -- delete line in which curser is 
+    
+    press 3dd for deleter three lines from the cursor position
+    
+    press 1yy for copy the line
+    and p for pasting
+    
+    vitutor -- for basic
+    VI -Visual Instrument
+    
+    
+    vim -- vi improved
+    
+    
