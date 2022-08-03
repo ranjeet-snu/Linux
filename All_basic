@@ -18,6 +18,7 @@ ls -l  -- to show list in discription with permisiion and time stamp
 ls -S -- sort by size
 ls -l > ran.txt   --< to store the result in text file by ant command>--
 ls -l /bin   -- to show the list in bin file
+ls -h -- human readbale file size
 touch    -- to craete an empty file
 rm -- to remove the files
 rm -r <folder_name> -- to delete the directory   --< -r stand for recurrsive which means go inside the directory remove all the files then remove directory too >--
@@ -92,7 +93,18 @@ If you dont know the password of the sudo - root
 then you can use
 sudo su - root  -- < if you have been allowed to use as a root user in wheel group then you have acees and you are entering from your account >--
 
-grep
+grep -- to serach word in a doc
+grep <word_to_be searched> <file_name>    // It will show line in which word is
+grep -i   --- ingnore the case sensitibe
+grep -n   ---- show line number
+grep -o   -- only  the occurance of word print not along with line
+grep -v   -- ignore  word from the search and print all
+
+
+cp <souce_file> <destination_file>
+cp -rv <source file> <destination file>  -- r means recurrsive which means go to directory and copy all line by line and v for verbose 
+    --> v for verbose The verbose option specifies that you want to display detailed processing information on your screen.
+
 
 
 
