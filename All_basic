@@ -31,6 +31,7 @@ cat -E    -- to add & in last of lines
 In Linux extension does not matter , its a regular text file
 
 mkdir -- to create empty folder
+mkdir -p folder1/folder2/folder3 --- to create parents folder
 
 In linux recycle bin is called trash
 
@@ -104,7 +105,13 @@ grep -v   -- ignore  word from the search and print all
 cp <souce_file> <destination_file>
 cp -rv <source file> <destination file>  -- r means recurrsive which means go to directory and copy all line by line and v for verbose 
     --> v for verbose The verbose option specifies that you want to display detailed processing information on your screen.
+    
 
+cp <souce_file> <destination_file>   
+
+
+
+alias showpath="ls"    --- to create shoetcut of long command to use again and again
 
 
 
