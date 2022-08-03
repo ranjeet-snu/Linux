@@ -113,6 +113,8 @@ cp <souce_file> <destination_file>
 
 alias showpath="ls"    --- to create shoetcut of long command to use again and again
 
+cat /etc/os-relesae   -- to show all the os detais
+
 
 
  
