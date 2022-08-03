@@ -1,0 +1,28 @@
+----------------------------------
+LinuX Architecture
+
+1.Hardware
+2.Kernel
+3.Bash
+4.Commands
+5.Application
+-----------------------------------
+
+Most Useful Command
+
+<main command> -<options> <arguments>      --< Structure of command >--
+<command> --help       --< To get all options of a specific command >--
+
+ls --   to all list 
+ls -l  -- to show list in discription
+ls -l /bin   -- to show the list in bin file
+touch    -- to craete an empty file
+rm -- to remove the files
+rm -r <folder_name> -- to delete the directory   --< -r stand for recurrsive which means go inside the directory remove all the files then remove directory too >--
+
+In Linux extension does not matter , its a regular text file
+
+mkdir -- to create empty folder
+
+In linux recycle bin is called trash
+
