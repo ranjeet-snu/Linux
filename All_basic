@@ -19,10 +19,63 @@ ls -l /bin   -- to show the list in bin file
 touch    -- to craete an empty file
 rm -- to remove the files
 rm -r <folder_name> -- to delete the directory   --< -r stand for recurrsive which means go inside the directory remove all the files then remove directory too >--
+rmdir <folder_name> -- to remove empty directory
+cat <file_name> --  to list the content inside file in nly read mode
 
 In Linux extension does not matter , its a regular text file
 
 mkdir -- to create empty folder
 
 In linux recycle bin is called trash
+
+=======================================================================
+USER COMMAND
+
+id <username> -- to check wether user exist or not
+uid(1000) -- user id
+gid -- group id is same as user id and number is also same by default
+groups --
+wheel group -- if any user is from the wheel group then he will be able to use sudo command
+last -- who has loged in in the past
+whoami -- user active name
+who -- which user is active right now
+w - to see what the user is doing
+------------------------------------------------------------
+understanding Structure
+[student@localhost~]$     -- together called prompt , first show user active , machine use, working directory, privellages
+
+student is user name active 
+@ tells which machine , here its localhost ,it can be server a , node a or any serer ip
+~ (tilde) sign show home directory of logged in user
+$ (doller sign) means non root user or regular user
+# (hash) it shows roots user
+------------------------------------------------------------
+------------------------------------------------------------
+SYSTEM INFORMATION
+
+hostname          -- to see machine name
+uname -r          --- too see the kernel version r stand for revision same as veriosn
+------------------------------------------------------------
+------------------------------------------------------------
+Network infromaton
+
+ip a ---tells ip address
+ping -- to check connectivity with others networks
+nmtui --  Network Manager Text User Interface // allows you to easily configure your network interfaces in Linux distributions using a graphical display
+
+------------------------------------------------------------
+------------------------------------------------------------
+HISTORY
+
+history -- to look history of used command
+------------------------------------------------------------
+------------------------------------------------------------
+su - <user name>        -- switch user //here - menas load the environment of the user , there is space before and after the - and it is options diffent from other command
+env -- what details has been captured by OS about user logged in
+ctrl+d -- to log out from root or user
+exit   -- to log out from root or user
+ 
+
+
+
 
