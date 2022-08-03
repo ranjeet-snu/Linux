@@ -14,13 +14,18 @@ Most Useful Command
 <command> --help       --< To get all options of a specific command >--
 
 ls --   to all list 
-ls -l  -- to show list in discription
+ls -l  -- to show list in discription with permisiion and time stamp
+ls -S -- sort by size
+ls -l > ran.txt   --< to store the result in text file by ant command>--
 ls -l /bin   -- to show the list in bin file
 touch    -- to craete an empty file
 rm -- to remove the files
 rm -r <folder_name> -- to delete the directory   --< -r stand for recurrsive which means go inside the directory remove all the files then remove directory too >--
 rmdir <folder_name> -- to remove empty directory
 cat <file_name> --  to list the content inside file in nly read mode
+cat -b    -- to count every non empty lines
+cat -n    -- to count every lines
+cat -E    -- to add & in last of lines
 
 In Linux extension does not matter , its a regular text file
 
@@ -74,6 +79,23 @@ su - <user name>        -- switch user //here - menas load the environment of th
 env -- what details has been captured by OS about user logged in
 ctrl+d -- to log out from root or user
 exit   -- to log out from root or user
+
+sudo -- to run root level command     //it is logged and can be seen syastem logs but su - <username> doesnt
+
+which <command>  -- show location of command file
+sbin directory can be run only bt root user
+sudo useradd <username> -- to add user      
+
+sudo passwd <username> -- to change the paswword of username
+
+If you dont know the password of the sudo - root
+then you can use
+sudo su - root  -- < if you have been allowed to use as a root user in wheel group then you have acees and you are entering from your account >--
+
+grep
+
+
+
  
 
 
